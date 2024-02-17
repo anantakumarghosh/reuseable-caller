@@ -6,7 +6,8 @@ jobs:
   call-workflow-passing-data:
     uses: ananta-verse/re-usable-workflow/.github/workflows/my-action.yml@main
     with:
-      word-to-print: IM INPUT PARAMETER
-    secrets: inherit
-    # secrets:
-    #   envPat: ${{ secrets.envPAT }}
+      word-to-print: ${{ vars.DEVOPS_LEARNER }}
+
+    # secrets: inherit
+    secrets:
+      envPat: ${{ secrets.envPAT }}
