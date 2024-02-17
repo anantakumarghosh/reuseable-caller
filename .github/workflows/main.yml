@@ -4,7 +4,7 @@ on:
 jobs:
 
   call-workflow-passing-data:
-    uses: ananta-verse/re-usable-workflow/.github/workflows/my-action.yml@main
+    uses: ananta-verse/re-usable-workflow/.github/workflows/my-action.yml@v0.0.1
     with:
       word-to-print: ${{ vars.DEVOPS_LEARNER }}
 
