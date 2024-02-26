@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Reusable return value.
-        run: echo "${{ needs.call-workflow-passing-data.outputs.resuable-return }}
+        run: echo "${{ needs.call-workflow-passing-data.outputs.resuable-return }}"
