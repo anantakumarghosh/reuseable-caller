@@ -10,7 +10,7 @@ jobs:
 
     # secrets: inherit
     secrets:
-      envPat: ${{ secrets.envPAT }}
+      envPat: ${{ secrets.ENVPAT }}
 
   reusable-output-printer:
     needs: call-workflow-passing-data
